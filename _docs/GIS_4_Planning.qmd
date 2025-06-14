@@ -1,0 +1,351 @@
+---
+title: "Training on GIS Applications for Physical and Land Use Planning"
+author: Today
+date: "2025-06-17"
+format: revealjs
+revealjs:
+  theme: simple
+  slide-number: true
+  transition: slide
+  navigation-mode: vertical
+engine: knitr
+---
+
+
+# Introduction
+
+- Welcome to the training
+- Importance of land use planning in national development
+- Role of GIS in modern planning
+
+
+# Objectives of the Training
+
+- Understand the planning system and processes in Kenya
+- Introduce GIS and its role in planning
+- Demonstrate tools and techniques in spatial planning
+- Promote appreciation of spatial data in decision-making
+
+
+# Expectations
+
+**From the Trainer:**
+- Deliver practical, interactive sessions
+- Share real-world experiences
+- Provide relevant materials
+
+**From Trainees:**
+- Active participation
+- Ask questions
+- Engage in hands-on sessions
+
+---
+
+# Part I: Physical and Land Use Planning
+
+---
+
+## Definitions
+
+
+
+
+## Importance of Planning
+
+- Coordinates public and private investments
+- Enhances quality of life
+- Reduces environmental conflicts
+
+---
+
+## Planning System in Kenya
+
+- National Level (National Spatial Plan)
+- County Level (County Spatial Plans, Local Physical Development Plans)
+- Special Purpose Plans
+- Stakeholders: NLC, County Govts, Ministries
+
+## Physical Planning Department
+
+<iframe src="org_chart.html" width="100%" height="1000" style="border:none;"></iframe>
+
+---
+
+## Planning Process
+
+1. Data Collection, Analysis and Visualization
+2. Stakeholder engagement (Visioning, Involvement, Validation)
+3. Plan Design and Formulation (Scenario Building and Plan Proposals)
+
+---
+
+## Plan Implementation
+
+- Further Planning
+- Programs and Projects
+- Development Control
+
+
+## Development Control
+
+- Definition and purpose
+- Tools: zoning, plot ratios, setbacks
+- Role of Physical Planners
+- Challenges in enforcement
+
+---
+
+# Part II: GIS & Remote Sensing in Planning
+
+## Definitions
+
+- **GIS:** Tools to capture, store, analyze spatial data
+- **Remote Sensing:** Acquiring info via satellites/drones
+
+---
+
+## Components of GIS
+
+- Hardware (Computers, GPS)
+- Software (QGIS, ArcGIS)
+- Data (spatial & attributes)
+- People (analysts, planners)
+- Methods (management, analysis)
+
+---
+
+## Applications of GIS in Planning
+
+- Land suitability analysis
+- Infrastructure planning
+- Risk mapping
+- Urban growth modeling
+- Public engagement
+
+---
+
+## GIS Software
+
+**Open Source:** QGIS, GEE
+- Free, customizable
+- Steep learning curve
+
+**Proprietary:** ArcGIS, ERDAS
+- Powerful, supported
+- Expensive
+
+---
+
+## Spatial Data Collection
+
+**Tools:**
+- GPS units
+- Mobile apps
+- Drones
+- Satellite images
+
+**Methods:**
+- Surveys
+- Participatory mapping
+- Remote classification
+
+---
+
+## A Survey 123 Demo Form
+
+Explore an interactive map with filters using radio buttons and a dropdown.
+
+<iframe src="https://survey123.arcgis.com/share/d02bfabac5a5496094449d49d92c0898?portalUrl=https://GEGIS-JKUAT.maps.arcgis.com"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+---
+
+## Spatial Data Wrangling
+
+- Data cleaning
+- Geo-referencing
+- Clipping/merging
+- Attribute joins
+
+---
+
+## Spatial Data Analysis
+
+- Buffering
+- Overlays
+- Suitability models
+- Change detection
+
+---
+
+## Visualization Techniques
+
+- Static Maps (Posters, PDFs)
+- Interactive Maps (Leaflet, Mapbox)
+- 3D Maps (Terrain, City models)
+- Time-series animations
+
+---
+
+## Spatial Info Reporting
+
+- Web Portals (Ardhisasa, Geoportals)
+- Dashboards (PowerBI, ArcGIS)
+- StoryMaps
+- eBooks & Interactive Reports (Quarto, HTML)
+
+---
+
+# Part III: Live Demonstrations
+
+## A Survey 123 Demo Form
+
+Explore an interactive map with filters using radio buttons and a dropdown.
+
+<iframe src="https://survey123.arcgis.com/share/d02bfabac5a5496094449d49d92c0898?portalUrl=https://GEGIS-JKUAT.maps.arcgis.com"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+---
+
+## A Dashboard (Taita Taveta Health Facilities)
+
+Explore an interactive dashboard showing Health Facilities data collected in Taita Taveta CSP Preparation Process.
+
+<iframe src="https://gegis-jkuat.maps.arcgis.com/apps/dashboards/507070e5a4a44ffd802c490493685ea1"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+
+## A Dashboard (Taita Taveta ECDEs)
+
+Explore an interactive dashboard showing ECDEs data collected in Taita Taveta CSP Preparation Process.
+
+<iframe src="https://gegis-jkuat.maps.arcgis.com/apps/dashboards/e5deac3b81e54032967302d28b024f09"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+---
+
+## A web Portal Demo (Taita Taveta Mapping Exercise)
+
+Explore an interactive story map for Taita Taveta Mapping Exercise.
+
+<iframe src=https://arcg.is/zaTDn0"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+---
+
+## ArcGIS Story Briefing 
+
+Explore an interactive map with filters using radio buttons and a dropdown.
+
+<iframe src="https://arcg.is/1XbK900"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+---
+
+## A web Portal Demo (Interactive Querry Portal)
+
+Explore an interactive map with filters using radio buttons and a dropdown.
+
+<iframe src="https://geokamp.shinyapps.io/2019Census/"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+---
+
+
+
+
+## QGIS
+
+- Free & Open Source
+- Digitizing, symbology, layout
+
+```{.bash}
+# Example: Launch QGIS
+qgis
+```
+
+---
+
+## ArcMap (Deprecated)
+
+- Legacy ESRI tool
+- Still in use in some setups
+
+```{.text}
+ArcMap is no longer updated. Use ArcGIS Pro instead.
+```
+
+---
+
+## ArcGIS Pro
+
+- Modern, integrated platform
+- 3D, web GIS, cloud support
+
+```{.bash}
+# Search tool
+Search: "3D Analyst Tools" > "Create TIN"
+```
+
+---
+
+## Google Earth Engine
+
+```javascript
+// NDVI Example in Google Earth Engine
+var image = ee.Image('LANDSAT/LC08/C01/T1_TOA/LC08_193034_20210323');
+var ndvi = image.normalizedDifference(['B5', 'B4']);
+Map.centerObject(image, 10);
+Map.addLayer(ndvi, {min: 0, max: 1, palette: ['white', 'green']}, 'NDVI');
+```
+
+---
+
+## R for GIS
+
+```r
+library(sf)
+library(tmap)
+
+# Load and plot spatial data
+nc <- st_read(system.file("shape/nc.shp", package="sf"))
+tmap_mode("view")
+tm_shape(nc) + tm_polygons("AREA")
+```
+
+---
+
+# Part IV: Q&A
+
+## Questions and Reflections
+
+- Open floor for questions
+- Reflections and feedback
+- Recommendations for further learning
+
+---
+
+# Thank You
+
+**Contacts:**
+Ben Amollo  
+State Department for Lands and Physical Planning  
+Email: benson.amolo@ardhi.go.ke
+
+**Resources:**
+- https://qgis.org  
+- https://developers.google.com/earth-engine  
+- https://r-spatial.org  
+- https://www.arcgis.com  
+- https://www.ardhisasa.lands.go.ke
+
+
+
+
