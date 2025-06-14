@@ -1,69 +1,103 @@
 ---
 title: "Training on GIS Applications for Physical and Land Use Planning"
-author: Today
-date: "2025-06-17"
-format: revealjs
-revealjs:
-  theme: simple
-  slide-number: true
-  transition: slide
-  navigation-mode: vertical
+author: "Plan. Ben Amollo"
+date: today
+date-format: "MMM D, YYYY"
+format:
+  revealjs:
+    theme: simple
+    slide-layout: false
+    # slide-number: true
+    transition: slide
+    # navigation-mode: vertical
 engine: knitr
 ---
 
-
 # Introduction
+
+## Overview
 
 - Welcome to the training
 - Importance of land use planning in national development
 - Role of GIS in modern planning
 
+---
 
-# Objectives of the Training
+## Objectives of the Training
 
-- Understand the planning system and processes in Kenya
-- Introduce GIS and its role in planning
-- Demonstrate tools and techniques in spatial planning
+- Understand the planning system and processes in Kenya  
+- Introduce GIS and its role in planning  
+- Demonstrate tools and techniques in spatial planning  
 - Promote appreciation of spatial data in decision-making
 
+---
 
-# Expectations
+## Expectations
 
 **From the Trainer:**
-- Deliver practical, interactive sessions
-- Share real-world experiences
+
+- Deliver practical, interactive sessions  
+- Share real-world experiences  
 - Provide relevant materials
 
-**From Trainees:**
-- Active participation
-- Ask questions
+**From the Trainees:**
+
+- Active participation  
+- Ask questions  
 - Engage in hands-on sessions
 
 ---
 
 # Part I: Physical and Land Use Planning
 
----
-
 ## Definitions
 
+**Physical Planning:**  
+Designing spatial layouts of infrastructure, transport, housing, and public spaces.
 
+**Land Use Planning:**  
+Allocating land for specific purposes (residential, commercial, industrial, agricultural, conservation).
 
+**Key Outputs:**  
+- Physical and Land Use Development Plans  
+  - Master plans  
+  - Zoning maps  
+  - Development guidelines
+
+---
 
 ## Importance of Planning
 
-- Coordinates public and private investments
-- Enhances quality of life
+- Sustainable resource use (water, soil, forests)  
+- Mitigate urban sprawl and environmental degradation  
+- Ensure equitable access to services (healthcare, education)  
+- Disaster resilience (e.g., floodplains, seismic zones)  
+- Coordinates public and private investments  
+- Enhances quality of life  
 - Reduces environmental conflicts
+
+---
+
+## How is Planning Executed?
+
+**Process Steps:**
+
+- **Data Collection:** Demographics, environment, infrastructure  
+- **Analysis:** Suitability modeling, capacity assessment  
+- **Stakeholder Engagement:** Public hearings, community workshops  
+- **Plan Formulation:** Zoning regulations, development rules  
+- **Implementation & Monitoring:** Programs, projects, permits, compliance checks
 
 ---
 
 ## Planning System in Kenya
 
-- National Level (National Spatial Plan)
-- County Level (County Spatial Plans, Local Physical Development Plans)
-- Special Purpose Plans
-- Stakeholders: NLC, County Govts, Ministries
+- **National Level:** National Spatial Plan  
+- **County Level:** County Spatial Plans, Local Physical Development Plans  
+- **Special Purpose Plans**  
+- **Stakeholders:** NLC, County Governments, Ministries
+
+---
 
 ## Physical Planning Department
 
@@ -71,141 +105,214 @@ engine: knitr
 
 ---
 
-## Planning Process
-
-1. Data Collection, Analysis and Visualization
-2. Stakeholder engagement (Visioning, Involvement, Validation)
-3. Plan Design and Formulation (Scenario Building and Plan Proposals)
-
----
-
-## Plan Implementation
-
-- Further Planning
-- Programs and Projects
-- Development Control
-
-
-## Development Control
-
-- Definition and purpose
-- Tools: zoning, plot ratios, setbacks
-- Role of Physical Planners
-- Challenges in enforcement
-
----
-
 # Part II: GIS & Remote Sensing in Planning
 
 ## Definitions
 
-- **GIS:** Tools to capture, store, analyze spatial data
-- **Remote Sensing:** Acquiring info via satellites/drones
+**GIS (Geographic Information System):**  
+A system for capturing, storing, analyzing, and presenting spatial data—linking data to geographic locations.
+
+**Remote Sensing:**  
+Acquisition of information about the Earth's surface from satellites or aircraft—useful for land cover mapping and monitoring changes.
+
+---
+
+## Why Use GIS & RS in Planning?
+
+**Benefits:**
+
+- **Accuracy:** Replace manual surveys with real-time data  
+- **Efficiency:** Rapid analysis of large areas  
+- **Decision Support:** Visualize scenarios (e.g., "what-if" analyses)  
+- **Compliance:** Meet legal and planning standards (e.g., CGA, 2012)  
+- **Visual:** Land use change detection via satellite imagery
 
 ---
 
 ## Components of GIS
 
-- Hardware (Computers, GPS)
-- Software (QGIS, ArcGIS)
-- Data (spatial & attributes)
-- People (analysts, planners)
-- Methods (management, analysis)
-
----
-
-## Applications of GIS in Planning
-
-- Land suitability analysis
-- Infrastructure planning
-- Risk mapping
-- Urban growth modeling
-- Public engagement
+- **Hardware:** Computers, GPS  
+- **Software:** QGIS, ArcGIS  
+- **Data:** Spatial and attribute data  
+- **People:** Analysts, planners  
+- **Methods:** Data management, analysis workflows
 
 ---
 
 ## GIS Software
 
-**Open Source:** QGIS, GEE
-- Free, customizable
-- Steep learning curve
+**Open Source:**  
+- QGIS, Google Earth Engine  
+- Free, customizable, but requires more learning
 
-**Proprietary:** ArcGIS, ERDAS
-- Powerful, supported
-- Expensive
+**Proprietary:**  
+- ArcGIS, ERDAS  
+- Powerful, supported, but costly
+
+---
+
+## Applications of GIS in Planning
+
+- Land suitability analysis  
+- Infrastructure and transport planning  
+- Risk and hazard mapping  
+- Urban growth modeling  
+- Public engagement and visualization
+
+---
+
+## When to Use GIS in Planning?
+
+**Stages:**
+
+- **Pre-Planning:** Base map creation, resource inventory  
+- **Design Phase:** Spatial analysis (e.g., slope, proximity)  
+- **Implementation:** Progress tracking  
+- **Monitoring:** Post-project impact assessment
+
+Also used in:
+- Data collection, analysis, visualization  
+- Stakeholder engagement (visioning, validation)  
+- Scenario building and plan formulation
 
 ---
 
 ## Spatial Data Collection
 
 **Tools:**
-- GPS units
-- Mobile apps
-- Drones
-- Satellite images
+
+- GPS units  
+- Mobile apps (QField, Kobo, ArcGIS Collector)  
+- Drones  
+- Satellite imagery
 
 **Methods:**
-- Surveys
-- Participatory mapping
-- Remote classification
 
----
-
-## A Survey 123 Demo Form
-
-Explore an interactive map with filters using radio buttons and a dropdown.
-
-<iframe src="https://survey123.arcgis.com/share/d02bfabac5a5496094449d49d92c0898?portalUrl=https://GEGIS-JKUAT.maps.arcgis.com"  
-        width="100%" height="600px" style="border:none;">
-</iframe>
+- Surveys  
+- Participatory mapping  
+- Remote sensing classification
 
 ---
 
 ## Spatial Data Wrangling
 
-- Data cleaning
-- Geo-referencing
-- Clipping/merging
+- Data cleaning  
+- Geo-referencing  
+- Clipping, merging  
 - Attribute joins
 
 ---
 
 ## Spatial Data Analysis
 
-- Buffering
-- Overlays
-- Suitability models
+- Buffering  
+- Overlays  
+- Suitability modeling  
 - Change detection
 
 ---
 
 ## Visualization Techniques
 
-- Static Maps (Posters, PDFs)
-- Interactive Maps (Leaflet, Mapbox)
-- 3D Maps (Terrain, City models)
+- Static maps (PDFs, posters)  
+- Interactive maps (Leaflet, Mapbox)  
+- 3D maps (terrain and building models)  
 - Time-series animations
 
 ---
 
 ## Spatial Info Reporting
 
-- Web Portals (Ardhisasa, Geoportals)
-- Dashboards (PowerBI, ArcGIS)
-- StoryMaps
-- eBooks & Interactive Reports (Quarto, HTML)
+- Web portals (e.g., Ardhisasa)  
+- Dashboards (e.g., PowerBI, ArcGIS)  
+- StoryMaps  
+- Interactive eBooks (e.g., Quarto)
 
 ---
 
-# Part III: Live Demonstrations
+# Example Maps
+
+## Static Map
+
+![Static Map](kareneste.png){width=100%}
+
+
+
+
+## Interactive Map
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.cap: "Interactive Map" 
+
+library(leaflet)
+library(sf)
+
+Karen <- st_read("D:/SpatialData/ngava/Shapefiles/Plan Design One.shp", quiet = TRUE) %>%
+  st_make_valid() %>%
+  st_transform(4326)
+
+# Define custom colors for each Land Use type
+land_use_colors <- c(
+  "Commercial"              = "red",
+  "Educational"             = "orange",
+  "Industrial"              = "purple",
+  "Low Density Residential" = "brown",
+  "Recreational"            = "lightgreen",
+  "Transportation"          = "grey"
+)
+
+# Create palette
+pal <- colorFactor(palette = land_use_colors, domain = names(land_use_colors))
+
+# Create interactive map
+leaflet(Karen) %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addPolygons(
+    fillColor = ~pal(Land_Use),
+    fillOpacity = 0.7,
+    color = "black",
+    weight = 1,
+    popup = ~paste0(
+      "<strong>Name:</strong> ", Name, "<br>",
+      "<strong>Land Use:</strong> ", Land_Use, "<br>",
+      "<strong>Area (Ha):</strong> ", round(Area_Ha, 2)
+    ),
+    label = ~Land_Use
+  ) %>%
+  addLegend("bottomright", pal = pal, values = ~Land_Use, title = "Land Use")
+
+```
+
+
+## 3D Map View of the Plan
+
+Explore a 3D terrain and building model of the static map
+
+<iframe src="https://bit.ly/Ngavaste_3D" 
+        width="100%" 
+        height="500" 
+        style="border:none;">
+</iframe>
+
+<p style="text-align:center; font-weight:bold; font-size:1.1em;">
+  3D Interactive Graphic
+</p>
+
+---
+
+# Part III: Demonstrations of various GIS Tools and Platforms
 
 ## A Survey 123 Demo Form
 
-Explore an interactive map with filters using radio buttons and a dropdown.
+Explore an interactive data collection form from Survey123.
 
 <iframe src="https://survey123.arcgis.com/share/d02bfabac5a5496094449d49d92c0898?portalUrl=https://GEGIS-JKUAT.maps.arcgis.com"  
         width="100%" height="600px" style="border:none;">
 </iframe>
+
 
 ---
 
@@ -218,6 +325,7 @@ Explore an interactive dashboard showing Health Facilities data collected in Tai
 </iframe>
 
 
+
 ## A Dashboard (Taita Taveta ECDEs)
 
 Explore an interactive dashboard showing ECDEs data collected in Taita Taveta CSP Preparation Process.
@@ -226,15 +334,17 @@ Explore an interactive dashboard showing ECDEs data collected in Taita Taveta CS
         width="100%" height="600px" style="border:none;">
 </iframe>
 
+
 ---
 
-## A web Portal Demo (Taita Taveta Mapping Exercise)
+## A Story Map (Taita Taveta Mapping Exercise)
 
 Explore an interactive story map for Taita Taveta Mapping Exercise.
 
-<iframe src=https://arcg.is/zaTDn0"  
+<iframe src="https://arcg.is/zaTDn0"  
         width="100%" height="600px" style="border:none;">
 </iframe>
+
 
 ---
 
@@ -245,6 +355,7 @@ Explore an interactive map with filters using radio buttons and a dropdown.
 <iframe src="https://arcg.is/1XbK900"  
         width="100%" height="600px" style="border:none;">
 </iframe>
+
 
 ---
 
@@ -258,69 +369,189 @@ Explore an interactive map with filters using radio buttons and a dropdown.
 
 ---
 
+## Google Earth Engine Demos
 
+<iframe src="https://google.earthengine.app/view/split-panel"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
 
+<iframe src="https://google.earthengine.app/view/linked-maps"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
 
-## QGIS
-
-- Free & Open Source
-- Digitizing, symbology, layout
-
-```{.bash}
-# Example: Launch QGIS
-qgis
-```
-
----
-
-## ArcMap (Deprecated)
-
-- Legacy ESRI tool
-- Still in use in some setups
-
-```{.text}
-ArcMap is no longer updated. Use ArcGIS Pro instead.
-```
+<iframe src="https://google.earthengine.app/view/forest-change"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
 
 ---
 
-## ArcGIS Pro
+## Google Earth Engine - Split Panel
 
-- Modern, integrated platform
-- 3D, web GIS, cloud support
+Explore an interactive map with split panel to visualize different phenomena in the same area.
 
-```{.bash}
-# Search tool
-Search: "3D Analyst Tools" > "Create TIN"
-```
+<iframe src="https://google.earthengine.app/view/split-panel"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
 
+
+## Google Earth Engine - Linked Maps
+
+Explore an interactive map with linked maps to visualize different phenomena.
+
+<iframe src="https://google.earthengine.app/view/linked-maps"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
+
+
+## Google Earth Engine - Forest Change
+
+Explore an interactive map for change detection in Forests.
+
+<iframe src="https://google.earthengine.app/view/forest-change"  
+        width="100%" height="600px" style="border:none;">
+</iframe>
 ---
 
-## Google Earth Engine
 
-```javascript
-// NDVI Example in Google Earth Engine
-var image = ee.Image('LANDSAT/LC08/C01/T1_TOA/LC08_193034_20210323');
-var ndvi = image.normalizedDifference(['B5', 'B4']);
-Map.centerObject(image, 10);
-Map.addLayer(ndvi, {min: 0, max: 1, palette: ['white', 'green']}, 'NDVI');
-```
-
----
-
-## R for GIS
-
-```r
+## Service Area Analysis
+```{r}
 library(sf)
-library(tmap)
+library(osmdata)
+library(dodgr)
+library(concaveman)
+library(leaflet)
+library(dplyr)
 
-# Load and plot spatial data
-nc <- st_read(system.file("shape/nc.shp", package="sf"))
-tmap_mode("view")
-tm_shape(nc) + tm_polygons("AREA")
+# # Define school points (Ardhi House and Kungu Primary)
+# school_coords <- data.frame(x = c(34.774790, 34.758953, 34.762553, 34.761746), 
+#                             y = c(-0.091695, -0.107290, -0.091863, -0.074756))
+ 
+set.seed(123)  # for reproducibility
+
+# Generate fake school names and random coordinates
+school_names <- paste("School", 1:10)
+
+school_coords <- data.frame(
+  name = school_names,
+  x = runif(20, min = 34.70, max = 34.80),   # Longitude
+  y = runif(20, min = -0.15, max = -0.05)    # Latitude
+)
+
+
+# Convert to sf
+school_sf <- st_as_sf(school_coords, coords = c("x", "y"), crs = 4326)
+
+
+# Create bounding box that covers both points (~1km buffer around both)
+bbox <- st_transform(school_sf, 3857) |> 
+  st_buffer(1000) |> 
+  st_transform(4326) |> 
+  st_bbox()
+
+# Get road network from OSM
+highways <- opq(bbox = bbox) %>% 
+  add_osm_feature("highway") %>% 
+  osmdata_sf()
+
+# Create weighted dodgr graph
+graph <- weight_streetnet(highways$osm_lines, wt_profile = "foot")
+vertices <- dodgr_vertices(graph)
+
+# Function to compute service area around a single point
+get_service_area <- function(lon, lat, graph, vertices, dist_m = 500) {
+  from <- data.frame(x = lon, y = lat)
+  dists <- dodgr_dists(graph, from = from)
+  nearby_ids <- colnames(dists)[which(dists[1, ] <= dist_m)]
+  verts_within <- vertices %>% filter(id %in% nearby_ids)
+  verts_sf <- st_as_sf(verts_within, coords = c("x", "y"), crs = 4326)
+  concaveman(verts_sf)
+}
+
+# Generate hulls for both service areas
+create_service_hulls <- function(coords_df, graph, vertices, dist_m = 500) {
+  # coords_df must have columns: x (longitude), y (latitude)
+  n <- nrow(coords_df)
+  
+  hulls <- vector("list", n)
+  
+  for (i in seq_len(n)) {
+    from <- data.frame(x = coords_df$x[i], y = coords_df$y[i])
+    
+    dists <- dodgr_dists(graph, from = from)
+    nearby_ids <- colnames(dists)[which(dists[1, ] <= dist_m)]
+    
+    verts_within <- vertices %>% filter(id %in% nearby_ids)
+    
+    if (nrow(verts_within) > 3) {
+      verts_sf <- st_as_sf(verts_within, coords = c("x", "y"), crs = 4326)
+      hulls[[i]] <- concaveman(verts_sf)
+    } else {
+      hulls[[i]] <- NULL  # not enough points for a polygon
+    }
+  }
+  
+  return(hulls)
+}
+
+# Assuming school_coords is your data.frame with x and y
+hulls <- create_service_hulls(school_coords, graph, vertices, dist_m = 500)
+
+# Optional: combine all valid hulls into one sf object for mapping
+hulls_sf <- do.call(rbind, hulls[!sapply(hulls, is.null)])
+
+
+generate_addMarkers_code <- function(coords_df) {
+  apply(coords_df, 1, function(row) {
+    sprintf("addMarkers(lng = %.6f, lat = %.6f)", as.numeric(row["x"]), as.numeric(row["y"]))
+  }) %>% 
+    paste(collapse = " %>%\n  ")
+}
+
+
+buffer <- st_buffer(school_sf, dist = 500)
+
+Roadlinez <- highways$osm_lines %>% 
+  st_intersection(buffer)
+
+Roadbufz <- st_buffer(Roadlinez, 25) %>% 
+  st_union() %>% 
+  st_make_valid()
+
+Rodz <- st_intersection(Roadbufz, buffer)
+
+# Saveria <- st_intersection(hulls_sf, Rodz)
+
+# Initialize leaflet map
+map <- leaflet() %>%
+  addTiles() %>%
+  addPolygons(data = hulls_sf, color = "blue", fillOpacity = 0.4, weight = 2,
+              popup = "500m walkable area around Ardhi House", group = "Draft Service Area") %>%
+  addPolylines(data = highways$osm_lines, color = "red", group = "Road Network") %>%
+  addPolygons(data = buffer, group = "500m Buffer") %>% 
+  # addPolygons(data = Saveria, group = "Analyzed Service Area") %>% 
+  addLayersControl(
+    overlayGroups = c("Road Network", "500m Buffer", "Draft Service Area", "Analyzed Service Area"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  hideGroup(c("Road Network", "500m Buffer", "Draft Service Area", "Analyzed Service Area"))
+
+# Add each marker from school_coords
+for (i in seq_len(nrow(school_coords))) {
+  map <- map %>%
+    addMarkers(
+      lng = school_coords$x[i],
+      lat = school_coords$y[i],
+      popup = paste("School", i)
+    )
+}
+
+# Show the final map
+map
+
 ```
 
----
+
 
 # Part IV: Q&A
 
