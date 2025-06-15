@@ -5,239 +5,417 @@ date: today
 date-format: "MMM D, YYYY"
 format:
   revealjs:
-    theme: simple
+    theme: sky
+    scrollable: true
     slide-layout: false
-    # slide-number: true
+    slide-number: true
     transition: slide
     # navigation-mode: vertical
+    # revealjs-plugins: [search, notes]
 engine: knitr
 ---
 
 # Introduction
 
-## Overview
-
-- Welcome to the training
-- Importance of land use planning in national development
-- Role of GIS in modern planning
-
----
+## Introduction
+::: {.incremental}
+-   Introduction of the Trainer and the Trainees
+-   Welcome to the training
+-   Brief on Physical and Land Use Planning
+-   Application of GIS in modern planning
+:::
+------------------------------------------------------------------------
 
 ## Objectives of the Training
 
-- Understand the planning system and processes in Kenya  
-- Introduce GIS and its role in planning  
-- Demonstrate tools and techniques in spatial planning  
-- Promote appreciation of spatial data in decision-making
+-   Understand the planning system and processes in Kenya\
+-   Introduce GIS and its role in planning\
+-   Demonstrate tools and techniques in spatial planning\
+-   Promote appreciation of spatial data in decision-making
 
----
+------------------------------------------------------------------------
 
 ## Expectations
 
+::: incremental
 **From the Trainer:**
 
-- Deliver practical, interactive sessions  
-- Share real-world experiences  
-- Provide relevant materials
+-   Deliver practical, interactive sessions\
+-   Share real-world experiences\
+-   Provide relevant materials
+
+. . .
 
 **From the Trainees:**
 
-- Active participation  
-- Ask questions  
-- Engage in hands-on sessions
+-   Active participation\
+-   Ask questions\
+-   Engage in hands-on sessions
+:::
 
----
+------------------------------------------------------------------------
 
 # Part I: Physical and Land Use Planning
 
 ## Definitions
 
-**Physical Planning:**  
+**Physical Planning:**\
 Designing spatial layouts of infrastructure, transport, housing, and public spaces.
 
-**Land Use Planning:**  
+**Land Use Planning:**\
 Allocating land for specific purposes (residential, commercial, industrial, agricultural, conservation).
 
-**Key Outputs:**  
-- Physical and Land Use Development Plans  
-  - Master plans  
-  - Zoning maps  
-  - Development guidelines
+**Key Outputs:**\
+- Physical and Land Use Development Plans\
+- Master plans\
+- Zoning maps\
+- Development guidelines
 
----
+------------------------------------------------------------------------
 
 ## Importance of Planning
 
-- Sustainable resource use (water, soil, forests)  
-- Mitigate urban sprawl and environmental degradation  
-- Ensure equitable access to services (healthcare, education)  
-- Disaster resilience (e.g., floodplains, seismic zones)  
-- Coordinates public and private investments  
-- Enhances quality of life  
-- Reduces environmental conflicts
+-   Sustainable resource use (water, soil, forests)\
+-   Mitigate urban sprawl and environmental degradation\
+-   Ensure equitable access to services (healthcare, education)\
+-   Disaster resilience (e.g., floodplains, seismic zones)\
+-   Coordinates public and private investments\
+-   Enhances quality of life\
+-   Reduces environmental conflicts
 
----
+------------------------------------------------------------------------
 
 ## How is Planning Executed?
 
 **Process Steps:**
 
-- **Data Collection:** Demographics, environment, infrastructure  
-- **Analysis:** Suitability modeling, capacity assessment  
-- **Stakeholder Engagement:** Public hearings, community workshops  
-- **Plan Formulation:** Zoning regulations, development rules  
-- **Implementation & Monitoring:** Programs, projects, permits, compliance checks
+-   **Data Collection:** Demographics, environment, infrastructure\
+-   **Analysis:** Suitability modeling, capacity assessment\
+-   **Stakeholder Engagement:** Public hearings, community workshops\
+-   **Plan Formulation:** Zoning regulations, development rules\
+-   **Implementation & Monitoring:** Programs, projects, permits, compliance checks
 
----
+------------------------------------------------------------------------
 
 ## Planning System in Kenya
 
-- **National Level:** National Spatial Plan  
-- **County Level:** County Spatial Plans, Local Physical Development Plans  
-- **Special Purpose Plans**  
-- **Stakeholders:** NLC, County Governments, Ministries
+::::: columns
+::: {.column width="40%"}
+-   **National Level:** National Spatial Plan\
+-   **County Level:** County Spatial Plans, Local Physical Development Plans\
+-   **Special Purpose Plans**\
+-   **Stakeholders:** NLC, County Governments, Ministries
+:::
 
----
+::: {.column width="60%"}
+![Static Map](planning_system.png){width="100%"}
+:::
+:::::
+
+------------------------------------------------------------------------
 
 ## Physical Planning Department
 
-<iframe src="org_chart.html" width="100%" height="1000" style="border:none;"></iframe>
+<iframe src="org_chart.html" width="100%" height="1000" style="border:none;">
 
----
+</iframe>
+
+------------------------------------------------------------------------
 
 # Part II: GIS & Remote Sensing in Planning
 
 ## Definitions
 
-**GIS (Geographic Information System):**  
+**GIS (Geographic Information System):**\
 A system for capturing, storing, analyzing, and presenting spatial data—linking data to geographic locations.
 
-**Remote Sensing:**  
+**Remote Sensing:**\
 Acquisition of information about the Earth's surface from satellites or aircraft—useful for land cover mapping and monitoring changes.
 
----
+------------------------------------------------------------------------
 
 ## Why Use GIS & RS in Planning?
 
 **Benefits:**
 
-- **Accuracy:** Replace manual surveys with real-time data  
-- **Efficiency:** Rapid analysis of large areas  
-- **Decision Support:** Visualize scenarios (e.g., "what-if" analyses)  
-- **Compliance:** Meet legal and planning standards (e.g., CGA, 2012)  
-- **Visual:** Land use change detection via satellite imagery
+-   **Accuracy:** Replace manual surveys with real-time data\
+-   **Efficiency:** Rapid analysis of large areas\
+-   **Decision Support:** Visualize scenarios (e.g., "what-if" analyses)\
+-   **Compliance:** Meet legal and planning standards (e.g., CGA, 2012)\
+-   **Visual:** Land use change detection via satellite imagery
 
----
-
-## Components of GIS
-
-- **Hardware:** Computers, GPS  
-- **Software:** QGIS, ArcGIS  
-- **Data:** Spatial and attribute data  
-- **People:** Analysts, planners  
-- **Methods:** Data management, analysis workflows
-
----
-
-## GIS Software
-
-**Open Source:**  
-- QGIS, Google Earth Engine  
-- Free, customizable, but requires more learning
-
-**Proprietary:**  
-- ArcGIS, ERDAS  
-- Powerful, supported, but costly
-
----
+------------------------------------------------------------------------
 
 ## Applications of GIS in Planning
 
-- Land suitability analysis  
-- Infrastructure and transport planning  
-- Risk and hazard mapping  
-- Urban growth modeling  
-- Public engagement and visualization
+-   Land suitability analysis\
+-   Infrastructure and transport planning\
+-   Risk and hazard mapping\
+-   Urban growth modeling\
+-   Public engagement and visualization
 
----
+------------------------------------------------------------------------
 
 ## When to Use GIS in Planning?
 
 **Stages:**
 
-- **Pre-Planning:** Base map creation, resource inventory  
-- **Design Phase:** Spatial analysis (e.g., slope, proximity)  
-- **Implementation:** Progress tracking  
-- **Monitoring:** Post-project impact assessment
+-   **Pre-Planning:** Base map creation, resource inventory\
+-   **Design Phase:** Spatial analysis (e.g., slope, proximity)\
+-   **Implementation:** Progress tracking\
+-   **Monitoring:** Post-project impact assessment
 
-Also used in:
-- Data collection, analysis, visualization  
-- Stakeholder engagement (visioning, validation)  
-- Scenario building and plan formulation
+------------------------------------------------------------------------
 
----
+## Components of GIS
 
-## Spatial Data Collection
+::::: columns
+::: {.column width="40%"}
+![GIS Components](gis.jpg){width="100%"}
+:::
 
-**Tools:**
+::: {.column width="60%"}
+-   **Hardware:** Computers, GPS\
+-   **Software:** QGIS, ArcGIS\
+-   **Data:** Spatial and attribute data\
+-   **People:** Analysts, planners\
+-   **Methods:** Data management, analysis workflows
+:::
+:::::
 
-- GPS units  
-- Mobile apps (QField, Kobo, ArcGIS Collector)  
-- Drones  
-- Satellite imagery
+------------------------------------------------------------------------
 
-**Methods:**
+## GIS Data Types
 
-- Surveys  
-- Participatory mapping  
-- Remote sensing classification
+Understanding the fundamental data types used in GIS for physical and land use planning.
 
----
++--------------------+--------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| **Type**           | **Structure**            | **Use Cases**                                                    | **Examples**                                        |
++====================+==========================+==================================================================+=====================================================+
+| **Vector Data**    | Points, Lines, Polygons  | Mapping infrastructure, administrative boundaries, land parcels  | Roads (lines), Buildings (polygons), Wells (points) |
++--------------------+--------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| **Raster Data**    | Grid of cells (pixels)   | Elevation modeling, land cover classification, satellite imagery | DEMs, NDVI from Landsat, Land Surface Temperature   |
++--------------------+--------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| **Attribute Data** | Tabular (CSV, Excel, DB) | Linking non-spatial statistics to spatial features               | Census tables, Land ownership records, Zoning info  |
++--------------------+--------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+
+------------------------------------------------------------------------
+
+> 🧭 *Each data type plays a unique role in land use planning—from mapping the built environment to modeling terrain and analyzing socioeconomic trends.*
+
+------------------------------------------------------------------------
+
+## GIS Tools
+
++---------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Category**                    | **Tools & Functions**                                                 | **Examples**                                                                                                                                                                     |
++=================================+=======================================================================+==================================================================================================================================================================================+
+| **Data Collection**             | GPS survey apps, drone photogrammetry, satellite imagery downloaders  | QField, Kobo, ArcGIS Collector, Survey 123, Field Maps, DroneDeploy, USGS EarthExplorer,                                                                                         |
++---------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Data Analysis**               | Spatial statistics, modeling toolboxes (e.g., suitability, hydrology) | ArcGIS Spatial Analyst, QGIS Processing Toolkit, R for Spatial Analysis, Google Earth Engine                                                                                     |
++---------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Visualization and Reporting** | Thematic map designers, 3D scene builders, dashboard creators         | Web Maps, Portals, ArcGIS StoryMaps, ArcGIS Briefings, ArcGIS Map Viewer, QGIS Print Composer, R Shiny Apps/FlexDashboards, Google Earth Engine Apps, Power BI + GIS integration |
+|                                 |                                                                       |                                                                                                                                                                                  |
+|                                 | Automated map exporters, report generators with embedded analytics    |                                                                                                                                                                                  |
++---------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## GIS Software
+
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+| **Type**        | **Software**                | **Description**                                                           | **Examples**                                    |
++=================+=============================+===========================================================================+=================================================+
+| **Open Source** | QGIS                        | User-friendly desktop GIS with rich plugins and analysis tools            | QGIS, SAGA GIS, GRASS GIS                       |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+|                 | R (sf, raster, terra, tmap) | Statistical and geospatial programming for analysis and visualization     | R + GIS packages (e.g., `sf`, `tmap`, `raster`) |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+|                 | Google Earth Engine (GEE)   | Cloud-based geospatial processing platform for large-scale remote sensing | GEE, Open Foris, Sentinel Hub                   |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+|                 | GRASS GIS                   | Powerful raster/vector GIS with extensive geoprocessing tools             | GRASS GIS                                       |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+|                 | gvSIG, ILWIS                | Specialized tools for analysis, mostly used in academia or research       | gvSIG, ILWIS                                    |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+| **Pros:**       |                             | Free, community-driven, customizable, cross-platform                      |                                                 |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+| **Cons:**       |                             | Steeper learning curve, less formal technical support                     |                                                 |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+| **Use Cases**   |                             | Land cover classification, suitability modeling, participatory mapping    |                                                 |
++-----------------+-----------------------------+---------------------------------------------------------------------------+-------------------------------------------------+
+
+------------------------------------------------------------------------
+
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+| **Type**        | **Software**         | **Description**                                                         | **Examples**                              |
++=================+======================+=========================================================================+===========================================+
+| **Proprietary** | ArcGIS               | Comprehensive GIS suite with robust tools and enterprise support        | ArcGIS Desktop, ArcGIS Pro, ArcGIS Online |
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+|                 | ERDAS Imagine        | Specialized in remote sensing and raster processing                     | ERDAS Imagine                             |
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+|                 | ENVI                 | Remote sensing analysis for hyperspectral and satellite imagery         | ENVI                                      |
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+|                 | MapInfo, Bentley Map | CAD/GIS integration, utilities, and infrastructure planning             | MapInfo, Bentley Map                      |
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+| **Pros:**       |                      | High performance, official support, integration with enterprise systems |                                           |
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+| **Cons:**       |                      | Expensive licenses, vendor lock-in                                      |                                           |
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+| **Use Cases**   |                      | Urban planning, cadastral mapping, high-end image classification        |                                           |
++-----------------+----------------------+-------------------------------------------------------------------------+-------------------------------------------+
+
+------------------------------------------------------------------------
+
+## Spatial Data Collection in Physical & Land Use Planning
+
+GIS plays a crucial role in **collecting accurate, location-based data** for informed decision-making in planning processes.
+
+### 🛠️ Tools
+
++---------------------+---------------------------------------+--------------------------------------------------------+
+| **Tool Type**       | **Examples**                          | **Application in Planning**                            |
++=====================+=======================================+========================================================+
+| GPS Devices         | Handheld GPS, GNSS receivers          | Capturing ground control points, boundary surveys      |
++---------------------+---------------------------------------+--------------------------------------------------------+
+| Mobile Applications | QField, KoboCollect, ArcGIS Collector | Field data collection (e.g., land use, infrastructure) |
++---------------------+---------------------------------------+--------------------------------------------------------+
+| Drones              | DJI Phantom, eBee, Wingtra            | High-resolution aerial imagery and photogrammetry      |
++---------------------+---------------------------------------+--------------------------------------------------------+
+| Satellite Imagery   | Sentinel, Landsat, PlanetScope        | Baseline mapping, land cover/land use classification   |
++---------------------+---------------------------------------+--------------------------------------------------------+
+
+### 🧭 Methods
+
++-----------------------+-----------------------------------------------------------------+---------------------------------------------------------+
+| **Method**            | **Description**                                                 | **Planning Use Case**                                   |
++=======================+=================================================================+=========================================================+
+| Ground Surveys        | Physical visits to collect attribute and spatial data           | Infrastructure audits, settlement surveys               |
++-----------------------+-----------------------------------------------------------------+---------------------------------------------------------+
+| Participatory Mapping | Engaging communities to map resources and land use patterns     | Planning in informal settlements, community land rights |
++-----------------------+-----------------------------------------------------------------+---------------------------------------------------------+
+| Remote Sensing        | Classification of satellite/drone imagery into land cover types | Vegetation, urban expansion, environmental risk zones   |
++-----------------------+-----------------------------------------------------------------+---------------------------------------------------------+
+
+------------------------------------------------------------------------
+
+> ✅ *Outcome:* Enables creation of **accurate base maps**, supports **evidence-based planning**, and promotes **stakeholder engagement** through participatory methods.
+
+------------------------------------------------------------------------
 
 ## Spatial Data Wrangling
 
-- Data cleaning  
-- Geo-referencing  
-- Clipping, merging  
-- Attribute joins
+Transforming raw spatial data into usable formats for analysis and planning.
 
----
+### 🔧 Key Processes
+
++------------------------+----------------------------------------------------------------------+-----------------------------------------------------+
+| **Process**            | **Description**                                                      | **Application in Planning**                         |
++========================+======================================================================+=====================================================+
+| **Data Cleaning**      | Removing errors, correcting attribute fields, ensuring consistency   | Ensures accurate representation of spatial features |
++------------------------+----------------------------------------------------------------------+-----------------------------------------------------+
+| **Geo-referencing**    | Aligning spatial data to real-world coordinates using control points | Integrates scanned maps with GIS datasets           |
++------------------------+----------------------------------------------------------------------+-----------------------------------------------------+
+| **Clipping & Merging** | Extracting areas of interest or combining datasets across boundaries | Focus on planning zones or county-wide base layers  |
++------------------------+----------------------------------------------------------------------+-----------------------------------------------------+
+| **Attribute Joins**    | Linking spatial features with tabular data based on common fields    | Adds population, zoning, or land ownership data     |
++------------------------+----------------------------------------------------------------------+-----------------------------------------------------+
+| **Reprojection**       | Transforming datasets into a common coordinate system                | Enables spatial overlay and analysis across sources |
++------------------------+----------------------------------------------------------------------+-----------------------------------------------------+
+
+------------------------------------------------------------------------
+
+> 💡 *Effective data wrangling is the foundation for accurate spatial analysis and evidence-based decision-making in land use planning.*
+
+------------------------------------------------------------------------
 
 ## Spatial Data Analysis
 
-- Buffering  
-- Overlays  
-- Suitability modeling  
-- Change detection
+### Key Techniques for Planning
 
----
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Analysis Type**         | **Purpose**                                                  | **Application Example**                             |
++===========================+==============================================================+=====================================================+
+| **Overlay**               | Combine multiple layers to assess suitability or constraints | Flood zones + Soil stability → Safe building sites  |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Network Analysis**      | Model connectivity and routing                               | Ambulance response optimization in Nairobi CBD      |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Slope/Aspect**          | Derive terrain characteristics                               | Rooftop solar potential mapping in urban areas      |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Viewshed**              | Identify visible areas from a viewpoint                      | Scenic corridor protection near national parks      |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Density Analysis**      | Calculate concentration of features                          | Informal settlement density for sanitation planning |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Proximity (Buffers)**   | Create zones based on distance                               | 500m noise buffer around airports                   |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Change Detection**      | Track spatial changes over time                              | Mangrove loss in Lamu (2010 vs. 2023)               |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Suitability Modeling**  | Score land based on criteria for optimal use                 | Agricultural zoning in Rift Valley                  |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Hydrological Modeling** | Simulate water flow and accumulation                         | Flood risk mapping in Mombasa                       |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Hotspot Analysis**      | Identify statistically significant clusters                  | Crime hotspots in urban renewal zones               |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Least-Cost Path**       | Determine optimal route avoiding obstacles                   | Wildlife corridor design (e.g., Tsavo elephants)    |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+| **Service Area**          | Delineate accessible zones based on time or distance         | Hospitals within 30-min drive in rural counties     |
++---------------------------+--------------------------------------------------------------+-----------------------------------------------------+
+
+------------------------------------------------------------------------
+
+> 📊 *GIS analysis transforms spatial data into actionable insights that support evidence-based land use planning and decision-making.*
+
+------------------------------------------------------------------------
 
 ## Visualization Techniques
 
-- Static maps (PDFs, posters)  
-- Interactive maps (Leaflet, Mapbox)  
-- 3D maps (terrain and building models)  
-- Time-series animations
+### Communicating Spatial Insights in Planning
 
----
++---------------------------+-------------------------------------------------------------------+----------------------------------------------------------+
+| **Visualization Type**    | **Purpose**                                                       | **Tools**                                                |
++===========================+===================================================================+==========================================================+
+| **Static Maps**           | High-quality printed maps for reports, zoning plans, proposals    | QGIS Print Composer, ArcGIS Layouts                      |
++---------------------------+-------------------------------------------------------------------+----------------------------------------------------------+
+| **Interactive Maps**      | Web-based maps with zoom, filter, and query capabilities          | ArcGIS Online, StoryMaps, QGIS `qgis2web` plugin         |
++---------------------------+-------------------------------------------------------------------+----------------------------------------------------------+
+| **3D Scenes**             | Visualize vertical development, simulate urban form               | ArcGIS CityEngine, QGIS `Qgis2threejs`                   |
++---------------------------+-------------------------------------------------------------------+----------------------------------------------------------+
+| **Time Series Animation** | Show changes over time (e.g., urban expansion, land cover change) | Google Earth Engine, ArcGIS Time Slider, R (`gganimate`) |
++---------------------------+-------------------------------------------------------------------+----------------------------------------------------------+
+
+------------------------------------------------------------------------
+
+> 🗺️ *Effective GIS visualization bridges the gap between technical analysis and stakeholder understanding—making complex spatial data accessible and compelling.*
+
+------------------------------------------------------------------------
 
 ## Spatial Info Reporting
 
-- Web portals (e.g., Ardhisasa)  
-- Dashboards (e.g., PowerBI, ArcGIS)  
-- StoryMaps  
-- Interactive eBooks (e.g., Quarto)
+### Turning Analysis into Action
 
----
++--------------------------+--------------------------------------------------------------+-----------------------------------------------+
+| **Reporting Format**     | **Purpose**                                                  | **Tools / Platforms**                         |
++==========================+==============================================================+===============================================+
+| **Automated Reports**    | Scheduled exports of maps/statistics for regular updates     | ArcGIS Pro Task Scheduler, Python scripting   |
++--------------------------+--------------------------------------------------------------+-----------------------------------------------+
+| **Dashboards**           | Real-time monitoring and summary indicators                  | ArcGIS Dashboards, Power BI + GIS integration |
++--------------------------+--------------------------------------------------------------+-----------------------------------------------+
+| **StoryMaps**            | Narrative-driven presentation of spatial planning content    | ArcGIS StoryMaps, ESRI Hub                    |
++--------------------------+--------------------------------------------------------------+-----------------------------------------------+
+| **Interactive eBooks**   | Clickable, interactive planning documents with embedded maps | Quarto, Bookdown, GitBook                     |
++--------------------------+--------------------------------------------------------------+-----------------------------------------------+
+| **Web Portals**          | Centralized access to planning data and services             | Ardhisasa, ArcGIS Hub, GeoNode                |
++--------------------------+--------------------------------------------------------------+-----------------------------------------------+
+| **Stakeholder Packages** | Customized printable map books for meetings and hearings     | ArcGIS Data Driven Pages, QGIS Atlas          |
++--------------------------+--------------------------------------------------------------+-----------------------------------------------+
 
-# Example Maps
+------------------------------------------------------------------------
+
+> 📝 *GIS reporting tools ensure that insights from analysis reach stakeholders, decision-makers, and the public in accessible, engaging, and actionable formats.*
+
+------------------------------------------------------------------------
+
+# Part III: Demonstration of GIS Based Maps/Plans
 
 ## Static Map
 
-![Static Map](kareneste.png){width=100%}
-
-
-
+![Static Map](kareneste.png){width="100%"}
 
 ## Interactive Map
 
@@ -248,6 +426,7 @@ Also used in:
 #| fig.cap: "Interactive Map" 
 
 library(leaflet)
+library(leaflet.extras)
 library(sf)
 
 Karen <- st_read("D:/SpatialData/ngava/Shapefiles/Plan Design One.shp", quiet = TRUE) %>%
@@ -270,6 +449,9 @@ pal <- colorFactor(palette = land_use_colors, domain = names(land_use_colors))
 # Create interactive map
 leaflet(Karen) %>%
   addProviderTiles("Esri.WorldImagery") %>%
+  addProviderTiles("CartoDB.Positron", group = "CartoDB Positron") %>%
+  addProviderTiles("OpenStreetMap", group = "OpenStreetMap") %>%
+  addProviderTiles("OpenTopoMap", group = "OpenTopoMap") %>%
   addPolygons(
     fillColor = ~pal(Land_Use),
     fillOpacity = 0.7,
@@ -282,139 +464,125 @@ leaflet(Karen) %>%
     ),
     label = ~Land_Use
   ) %>%
-  addLegend("bottomright", pal = pal, values = ~Land_Use, title = "Land Use")
+  addLayersControl(
+    baseGroups = c("OpenStreetMap", "CartoDB Positron", "OpenStreetMap", "OpenTopoMap"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>% 
+  addSearchFeatures(
+    targetGroups = "Karen",         # Group name should match group used in addPolygons
+    options = searchFeaturesOptions(
+      propertyName = "Name",        # Property to search by
+      zoom = 16,
+      openPopup = TRUE,
+      firstTipSubmit = TRUE,
+      autoCollapse = TRUE,
+      hideMarkerOnCollapse = TRUE
+    )
+  ) %>%
+  addLegend("bottomright", pal = pal, values = ~Land_Use, title = "Land Use") %>% 
+  addFullscreenControl()
 
 ```
+
+<!-- ## Querry Map -->
+
+<!-- ```{r} -->
+
+<!-- ``` -->
 
 
 ## 3D Map View of the Plan
 
 Explore a 3D terrain and building model of the static map
 
-<iframe src="https://bit.ly/Ngavaste_3D" 
-        width="100%" 
-        height="500" 
-        style="border:none;">
+<iframe src="https://bit.ly/Ngavaste_3D" width="100%" height="500" style="border:none;">
+
 </iframe>
 
 <p style="text-align:center; font-weight:bold; font-size:1.1em;">
-  3D Interactive Graphic
+
+3D Interactive Graphic
+
 </p>
 
----
+------------------------------------------------------------------------
 
-# Part III: Demonstrations of various GIS Tools and Platforms
+## Tatu City Master Plan
+
+```{r}
+
+```
+
+# Part IV: Examples of various GIS Tools and Platforms
 
 ## A Survey 123 Demo Form
 
 Explore an interactive data collection form from Survey123.
 
-<iframe src="https://survey123.arcgis.com/share/d02bfabac5a5496094449d49d92c0898?portalUrl=https://GEGIS-JKUAT.maps.arcgis.com"  
-        width="100%" height="600px" style="border:none;">
+<iframe src="https://survey123.arcgis.com/share/d02bfabac5a5496094449d49d92c0898?portalUrl=https://GEGIS-JKUAT.maps.arcgis.com" width="100%" height="600px" style="border:none;">
+
 </iframe>
 
-
----
+------------------------------------------------------------------------
 
 ## A Dashboard (Taita Taveta Health Facilities)
 
 Explore an interactive dashboard showing Health Facilities data collected in Taita Taveta CSP Preparation Process.
 
-<iframe src="https://gegis-jkuat.maps.arcgis.com/apps/dashboards/507070e5a4a44ffd802c490493685ea1"  
-        width="100%" height="600px" style="border:none;">
+<iframe src="https://gegis-jkuat.maps.arcgis.com/apps/dashboards/507070e5a4a44ffd802c490493685ea1" width="100%" height="600px" style="border:none;">
+
 </iframe>
-
-
 
 ## A Dashboard (Taita Taveta ECDEs)
 
 Explore an interactive dashboard showing ECDEs data collected in Taita Taveta CSP Preparation Process.
 
-<iframe src="https://gegis-jkuat.maps.arcgis.com/apps/dashboards/e5deac3b81e54032967302d28b024f09"  
-        width="100%" height="600px" style="border:none;">
+<iframe src="https://gegis-jkuat.maps.arcgis.com/apps/dashboards/e5deac3b81e54032967302d28b024f09" width="100%" height="600px" style="border:none;">
+
 </iframe>
 
-
----
+------------------------------------------------------------------------
 
 ## A Story Map (Taita Taveta Mapping Exercise)
 
 Explore an interactive story map for Taita Taveta Mapping Exercise.
 
-<iframe src="https://arcg.is/zaTDn0"  
-        width="100%" height="600px" style="border:none;">
+<iframe src="https://arcg.is/zaTDn0" width="100%" height="600px" style="border:none;">
+
 </iframe>
 
+------------------------------------------------------------------------
 
----
+## ArcGIS Story Briefing
 
-## ArcGIS Story Briefing 
+Explore an interactive presentation with interactive maps therein.
 
-Explore an interactive map with filters using radio buttons and a dropdown.
+<iframe src="https://arcg.is/1XbK900" width="100%" height="600px" style="border:none;">
 
-<iframe src="https://arcg.is/1XbK900"  
-        width="100%" height="600px" style="border:none;">
 </iframe>
 
+------------------------------------------------------------------------
 
----
+## Time Series Animation
+
+Explore an interactive presentation with interactive maps therein.
+
+![Time Series Animated Map](internet_users_east__africa.gif){width=100%}
+
+------------------------------------------------------------------------
 
 ## A web Portal Demo (Interactive Querry Portal)
 
 Explore an interactive map with filters using radio buttons and a dropdown.
 
-<iframe src="https://geokamp.shinyapps.io/2019Census/"  
-        width="100%" height="600px" style="border:none;">
+<iframe src="https://geokamp.shinyapps.io/2019Census/" width="100%" height="600px" style="border:none;">
+
 </iframe>
 
----
-
-## Google Earth Engine Demos
-
-<iframe src="https://google.earthengine.app/view/split-panel"  
-        width="100%" height="600px" style="border:none;">
-</iframe>
-
-<iframe src="https://google.earthengine.app/view/linked-maps"  
-        width="100%" height="600px" style="border:none;">
-</iframe>
-
-<iframe src="https://google.earthengine.app/view/forest-change"  
-        width="100%" height="600px" style="border:none;">
-</iframe>
-
----
-
-## Google Earth Engine - Split Panel
-
-Explore an interactive map with split panel to visualize different phenomena in the same area.
-
-<iframe src="https://google.earthengine.app/view/split-panel"  
-        width="100%" height="600px" style="border:none;">
-</iframe>
-
-
-## Google Earth Engine - Linked Maps
-
-Explore an interactive map with linked maps to visualize different phenomena.
-
-<iframe src="https://google.earthengine.app/view/linked-maps"  
-        width="100%" height="600px" style="border:none;">
-</iframe>
-
-
-
-## Google Earth Engine - Forest Change
-
-Explore an interactive map for change detection in Forests.
-
-<iframe src="https://google.earthengine.app/view/forest-change"  
-        width="100%" height="600px" style="border:none;">
-</iframe>
----
-
+------------------------------------------------------------------------
 
 ## Service Area Analysis
+
 ```{r}
 library(sf)
 library(osmdata)
@@ -438,7 +606,8 @@ school_coords <- data.frame(
   y = runif(20, min = -0.15, max = -0.05)    # Latitude
 )
 
-
+# Drop schools 15, 18, and 19
+school_coords <- school_coords[-c(15, 18, 19), ]
 # Convert to sf
 school_sf <- st_as_sf(school_coords, coords = c("x", "y"), crs = 4326)
 
@@ -551,32 +720,116 @@ map
 
 ```
 
+----------------------------------------------------------
 
+## Animated Bubble map
+
+![Animated Bubble Map](https://raw.githubusercontent.com/milos-agathon/animate-bubble-maps/refs/heads/main/violence_vs_civilians_syria.gif){width=100%}
+
+## Animated Raster Map
+
+![Animated Bubble Map](https://raw.githubusercontent.com/milos-agathon/animated-raster-maps/refs/heads/main/istanbul-population.gif){width=100%}
+-----------------
+
+## Google Earth Engine - Split Panel
+
+Explore an interactive map with split panel to visualize different phenomena in the same area.
+
+<iframe src="https://google.earthengine.app/view/split-panel" width="100%" height="600px" style="border:none;">
+
+</iframe>
+
+## Google Earth Engine - Linked Maps
+
+Explore an interactive map with linked maps to visualize different phenomena.
+
+<iframe src="https://google.earthengine.app/view/linked-maps" width="100%" height="600px" style="border:none;">
+
+</iframe>
+
+## Google Earth Engine - Forest Change
+
+Explore an interactive map for change detection in Forests.
+
+<iframe src="https://google.earthengine.app/view/forest-change" width="100%" height="600px" style="border:none;">
+
+</iframe>
+
+------------------------------------------------------------------------
+
+## 🌐 Resources
+
+### 📚 Key Platforms & Tools
+
+-   [QGIS](https://qgis.org) — Open-source GIS software
+-   [Google Earth Engine](https://developers.google.com/earth-engine) — Cloud-based geospatial analysis
+-   [R Spatial](https://r-spatial.org) — Spatial analysis in R
+-   [ArcGIS Online](https://www.arcgis.com) — ESRI's cloud-based GIS platform
+-   [Ardhisasa](https://www.ardhisasa.lands.go.ke) — Kenya's National Land Information System
+
+------------------------------------------------------------------------
+
+### 🗺️ Maps and Interactive Tools Used in This Presentation
+
+-   **Survey123 Demo Form**\
+    [survey123.arcgis.com/share/...](https://survey123.arcgis.com/share/d02bfabac5a5496094449d49d92c0898?portalUrl=https://GEGIS-JKUAT.maps.arcgis.com)
+
+-   **Taita Taveta Health Facilities Dashboard**\
+    [View Dashboard](https://gegis-jkuat.maps.arcgis.com/apps/dashboards/507070e5a4a44ffd802c490493685ea1)
+
+-   **Taita Taveta Mapping StoryMap**\
+    [View StoryMap](https://arcg.is/zaTDn0)
+
+-   **ArcGIS StoryMap Briefing**\
+    [View StoryMap](https://arcg.is/1XbK900)
+
+-   **Kenya 2019 Census Visualization (Shiny App)**\
+    [View Portal](https://geokamp.shinyapps.io/2019Census/)
+
+-   **Animated Bubble Map (Syria Conflict)**\
+[View Bubble Map](https://raw.githubusercontent.com/milos-agathon/animate-bubble-maps/refs/heads/main/violence_vs_civilians_syria.gif)
+
+-   **Animated Raster Map (Istanbul Population)**\
+[View Bubble Map](https://raw.githubusercontent.com/milos-agathon/animated-raster-maps/refs/heads/main/istanbul-population.gif)
+
+-   **Google Earth Engine Apps**
+
+    -   [Split Panel Comparison](https://google.earthengine.app/view/split-panel)\
+    -   [Linked Maps Viewer](https://google.earthengine.app/view/linked-maps)\
+    -   [Forest Change Monitoring](https://google.earthengine.app/view/forest-change)
+
+------------------------------------------------------------------------
 
 # Part IV: Q&A
 
+
 ## Questions and Reflections
+::: {.incremental}
+-   Floor is open for questions
+-   Reflections and feedback
+-   Recommendations for further learning
+:::
+------------------------------------------------------------------------
 
-- Open floor for questions
-- Reflections and feedback
-- Recommendations for further learning
+## Contacts
 
----
+<div style="font-size:1.2em; line-height:1.6;">
+  <p><strong>👤 Plan. Ben Amollo</strong></p>
+  <p><i class="fa fa-briefcase"></i> Assistant Director</p>
+  <p><i class="fa fa-building"></i> Department of Physical Planning</p>
+  <p><i class="fa fa-landmark"></i> State Department for Lands and Physical Planning</p>
+  <p><i class="fa fa-phone"></i> Phone No.: +254721646495</p>
+  <p><i class="fa fa-envelope"></i> <a href="mailto:benamolo@gmail.com"> email1: benamolo@gmail.com</a></p>
+  <p><i class="fa fa-envelope"></i> <a href="mailto:benson.amolo@ardhi.go.ke"> email2: benson.amolo@ardhi.go.ke</a></p>
+</div>
+
 
 # Thank You
 
-**Contacts:**
-Ben Amollo  
-State Department for Lands and Physical Planning  
-Email: benson.amolo@ardhi.go.ke
-
-**Resources:**
-- https://qgis.org  
-- https://developers.google.com/earth-engine  
-- https://r-spatial.org  
-- https://www.arcgis.com  
-- https://www.ardhisasa.lands.go.ke
+<div style="text-align: center;">
+  Scan me for this presentation
+  <img src="qrcode_.png" alt="Scan me for this presentation" style="width: 50%;" />
+</div>
 
 
-
-
+--------------------------
